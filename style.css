@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+    background-color:#808080 ;
+}
+.grid img{
+    border: 2px solid #008008;
+    border-radius: 50px;
+}
